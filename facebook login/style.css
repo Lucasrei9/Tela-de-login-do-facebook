@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 244, 246);
+}
+
+/* this is the modifications for mobile */
+
+/* this is the modifications of logo*/
+
+.square {
+    position: relative;
+    width: 450px;
+    height: 800px;
+    margin: auto;
+   
+}
+
+.logo {
+    position: relative;
+   
+    width: 375px;
+    height: 180px;
+    margin: auto;
+}
+
+.face {
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(6, 100, 251);
+}
+
+.text {
+    top: -10px;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* this is the modifications of login */
+
+.login {
+    background-color: white;
+    position: relative;
+    width: 385px;
+    height: 330px;
+    margin: auto;
+    box-shadow: 1px 1px 10px rgb(172, 169, 169);
+    border-radius: 5px;
+    top: 65px;
+}
+
+.email {
+    display: block;
+    position: relative;
+    width: 345px;
+    height: 50px;
+    margin: auto;
+    top: 18px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+}
+
+
+.password {
+    display: block;
+    position: relative;
+    width: 345px;
+    height: 50px;
+    margin: auto;
+    top: 23px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+}
+
+.entrar {
+    background-color: rgb(6, 100, 251);
+    display: block;
+    position: relative;
+    width: 345px;
+    height: 48px;
+    margin: auto;
+    top: 34px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 14px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.entrar:hover {
+    background-color: rgb(9, 91, 223);
+}
+
+.esquecer {
+    position: relative;
+    top: 38px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(6, 100, 251);
+    font-size: 14px;
+}
+
+.border {
+    background-color: rgba(41, 38, 38, 0.192);
+    position: relative;
+    width: 355px;
+    height: 1px;
+    margin: auto;
+    top: 42px;
+
+}
+
+.criar {
+    background-color: rgb(38, 173, 34);
+    display: block;
+    position: relative;
+    width: 160px;
+    height: 50px;
+    margin: auto;
+    top: 65px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.criar:hover {
+    background-color: rgb(35, 156, 30);
+}
+
+.conta {
+    position: relative;
+    top: 79px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.pagina {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 1024px) {
+    .square {
+       
+        width: 950px;
+        height: 600px;
+    }
+
+    .logo {
+        float: left;
+        left: 50px;
+        top: 90px;
+        width: 410px;
+        
+    }
+
+    .face, .text {
+        text-align: left;
+    }
+
+    .login {
+        float: right;
+        right: 50px;
+        top: 70px;
+
+    }
+
+    .conta {
+        float: right;
+        left: 335px;
+        top: 230px;
+        font-size: 14px;
+
+    }
+}
